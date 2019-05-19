@@ -8,7 +8,8 @@ Network division - Whole network is divided into 2 modules first Voice to text a
 Module-1 : Voice to text, For this we have used deepspeech pre-trained network and by its trained module we can convert audio(.wav format) to text.
 
 To download the Module 1, use this command from the command line:
- while [ $? -ne 0 ]; do LC_ALL=C wget --continue -O deepspeech.tar.gz  https://github.com/mozilla/DeepSpeech/releases/download/v0.4.1/deepspeech-0.4.1-models.tar.gz; done
+
+while [ $? -ne 0 ]; do LC_ALL=C wget --continue -O deepspeech.tar.gz  https://github.com/mozilla/DeepSpeech/releases/download/v0.4.1/deepspeech-0.4.1-models.tar.gz; done
 
 Module-2 : The Encoder-Decoder network which takes a test as input and outputs final audio as target persons style.
 
